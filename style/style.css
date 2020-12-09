@@ -1,0 +1,111 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: #19a2ae;
+  background-image: url("/images/bg-pattern-bottom.svg"), url(/images/bg-pattern-top.svg);
+  background-repeat: no-repeat;
+  background-position: right 10vw bottom 50vh, left 50vw top 50vh;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.Card {
+  background-color: white;
+  width: 326px;
+  border-radius: 16px;
+  overflow: hidden;
+  -webkit-box-shadow: 10px 10px 10px lightslategray;
+          box-shadow: 10px 10px 10px lightslategray;
+}
+
+.Card-header {
+  width: 100%;
+  display: block;
+}
+
+.Card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #6a6f81;
+}
+
+.Card-body-img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid white;
+  border-radius: 50%;
+  margin-top: calc(-100px - 5px);
+  background-color: white;
+}
+
+.Card-body-title {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+
+.Card-body-title span {
+  color: #6a6f81;
+  font-weight: 400;
+  margin-left: 0.7rem;
+}
+
+.Card-body-text {
+  color: #6a6f81;
+  font-size: 1.6rem;
+  margin-top: 0%;
+  margin-bottom: 2rem;
+}
+
+.Card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.Card-footer-social {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Card-footer-social p {
+  letter-spacing: 1px;
+}
+
+.Card-footer-social-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
